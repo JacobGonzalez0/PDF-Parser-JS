@@ -14,7 +14,7 @@ function getPDFData(url, callback){
 
 var screen = document.getElementById("output")
 
- getPDFData("/data/data_extraction.pdf", (content =>{
+getPDFData("/data/data_extraction.pdf", (content =>{
     var arr = []
     content.forEach( item =>{
         arr.push(item.str)
